@@ -10,19 +10,19 @@ Not all 10 questions are equally important for creating the sorting hat. To enha
 
 ### 2. If you were to improve the sorting hat, what technical improvements would you make?
 
-#### How could you improve the model's accuracy or efficiency?  
+#### 2.1 How could you improve the model's accuracy or efficiency?  
 **Answers:**  
 - Collect more user data to better train and validate the model.
 - Apply feature importance analysis to eliminate low-impact questions.
 - Consider using model pruning or conversion tools (like TensorFlow Lite or Edge Impulse optimization) to reduce memory footprint for embedded deployment.
 
-#### What additional sensors or hardware could enhance the user experience?  
+#### 2.2 What additional sensors or hardware could enhance the user experience?  
 **Answers:**  
 - **Microphone**: Enable voice interaction for a more magical, immersive feel.
 - **Vibration motor**: To give tactile feedback during selection or sorting.
 - **Speakers or Bussers**: For audio feedback, such as spoken results or some music.
 
-#### Does decision tree remain suitable for your choice of new sensors?
+#### 2.3 Does decision tree remain suitable for your choice of new sensors?
 **Answers:**
 - **Decision trees** are good for simple inputs like button presses, but if we add new sensors like a **microphone**, **vibration motor**, or a **speaker**, decision trees may not be the best choice. 
 - Decision trees work well for handling structured, discrete data (like button presses), but they struggle with continuous or unstructured data, such as sound or vibrations.
