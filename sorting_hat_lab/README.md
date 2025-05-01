@@ -22,7 +22,7 @@ Not all 10 questions are equally important for creating the sorting hat. To enha
 - **Vibration motor**: To give tactile feedback during selection or sorting.
 - **Speakers or Bussers**: For audio feedback, such as spoken results or some music.
 
-### Does decision tree remain suitable for your choice of new sensors?
+#### Does decision tree remain suitable for your choice of new sensors?
 **Answers:**
 - **Decision trees** are good for simple inputs like button presses, but if we add new sensors like a **microphone**, **vibration motor**, or a **speaker**, decision trees may not be the best choice. 
 - Decision trees work well for handling structured, discrete data (like button presses), but they struggle with continuous or unstructured data, such as sound or vibrations.
